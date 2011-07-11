@@ -57,7 +57,7 @@ LOCAL_QUORUM: Get quorum consistency within the datacenter
 * In database schemas: CREATE COLUMN FAMILY
 * Expiring columns (TTL)
 * Secondary (column) indexes
-** We should use this.  Query by non key values.
+ * We should use this.  Query by non key values.
 
 0.8 enhancements
 --
