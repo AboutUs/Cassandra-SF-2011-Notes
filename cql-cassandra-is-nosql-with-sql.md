@@ -5,14 +5,16 @@ Rackspace
 
 Works at Rackspace, commits to Cassandra. @jericevans. This is the guy that coined the term NoSQL!
 
-Sounds like he worked on the RPC API. Today, to get at data in Cassandra, you can use one of three things:
+Sounds like he worked on the RPC API.
+
+HISTORY
+==
+
+Today, to get at data in Cassandra, you can use one of three things:
 
 * RPC API
 * Third Party API via Thrift
 * CQL
-
-HISTORY
-==
 
 RPC API sucked. New Goal: Build a new interface identical to something that doesn't suck
 ==
