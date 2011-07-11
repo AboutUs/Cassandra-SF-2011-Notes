@@ -51,4 +51,4 @@ Limitations of Counters
   * To reset a counter, remove it then re-insert it -- THEN you can incr it.
 * If you loose an SSTable, you will need to remove all the SSTables from the column family and repair.
 * No secondary indexes on counters.
-
+* No consistency level ANY for writes.
