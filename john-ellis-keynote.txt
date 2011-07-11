@@ -1,0 +1,40 @@
+John Ellis
+- Cassandra is big data.
+- why people choose Cassandra
+ - big data
+ - durable
+ - integrated caching
+   - solves cache coherence problem
+   - no need to cache data elsewhere
+   - long and short: row caching
+ - performance.
+   - no write locks
+   - streaming IO from memtable to disk
+ - eventually consistent? Nope. Can be fully consistent if you want.
+   - can tune availability vs consistency
+   - eventual consistency really is across data centers.
+   - data sent across to other data center to one replica, not many.
+ - expiring columns
+   - redis-like
+- 0.8
+ - CQL
+   - higher level experience
+ - Counters (summing)
+ - automatic tuning
+ - bulk load
+Onward to 1.0!
+- release in October
+- polish
+ - repair
+   - syncs data
+   - exchanges hashes
+ - compression
+ - optimize reads
+- read performance
+ - CQL: Cassandra goes relational
+
+Post-1.0
+- less thrift!
+- brisk
+ - analytics sans etl
+
