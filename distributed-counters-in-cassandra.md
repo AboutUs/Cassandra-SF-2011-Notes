@@ -50,3 +50,5 @@ Limitations of Counters
 * If you remove a counter, you cannot increment it (i.e. recreate the counter on the fly, I guess)
   * To reset a counter, remove it then re-insert it -- THEN you can incr it.
 * If you loose an SSTable, you will need to remove all the SSTables from the column family and repair.
+* No secondary indexes on counters.
+
