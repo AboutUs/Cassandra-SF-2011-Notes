@@ -1,7 +1,8 @@
 C* at Urban Airship
 ==
 
-Eric Onnen
+Erik Onnen
+@eonnen
 
 Director of Platform Engineering at Urban Airship
 DOE at Jive before that
