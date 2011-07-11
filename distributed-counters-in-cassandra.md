@@ -3,6 +3,8 @@ Sylvain Lebresne
 DataStax
 --
 
+Note: This session turned out to be mostly a "how we implemented counters" session.
+
 History
 ==
 
