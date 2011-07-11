@@ -164,3 +164,5 @@ Examples online
 * https://github.com/riptano/hector-jpa
 * https://issues.apache.org/jira/browse/CASSANDRA-2231
 
+
+Presentation: _Life Beyond Transactions_  Deep paper that c* geeks quote a lot.
